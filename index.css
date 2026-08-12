@@ -9,6 +9,7 @@
 }
 
 body {
+  width: 100%;
   background-color: #fff;
   font-family: Arial, sans-serif;
   overflow-x: hidden;
@@ -624,7 +625,7 @@ body {
 }
 .end {
   width: 100%;
-  width: 500px;
+
   overflow: hidden;
   height: 50vh;
   background-color: rgb(4, 4, 4);
@@ -670,8 +671,8 @@ body {
 @media (min-width: 300px) and (max-width: 768px) {
   .new {
     position: relative;
-    width: 500px;
-    height: 350vh;
+    width: 511px;
+    height: 340vh;
     margin-top: -30px;
     border-top-left-radius: 50% 50px;
     border-top-right-radius: 50% 50px;
@@ -901,6 +902,7 @@ body {
     font-size: 19px;
   }
   .end {
+    width: 500px;
     overflow: hidden;
     background-color: #383838;
   }
